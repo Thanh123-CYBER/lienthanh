@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document </title>
+    <style>
+        * { box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
+        body {
+            margin: 0;
+            background: #f6f6f6;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+        h1 {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .movie-list {
+            list-style: none;
+            padding: 0;
+        }
+        .movie-item {
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .movie-item:last-child {
+            border-bottom: none;
+        }
+        .movie-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .movie-year {
+            color: #666;
+        }
+        .btn {
+            background: #b22222;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
+        .header {
+            text-align: left;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #b22222;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">MindX Cinema</div>
+        <h1>Danh Sách Phim</h1>
+        <ul class="movie-list">
+            <li class="movie-item">
+                <div>
+                    <div class="movie-title">Phim 1</div>
+                    <div class="movie-year">2061</div>
+                </div>
+                <a href="1.html"><button class="btn">Xem Chi Tiết</button></a>
+            </li>
+            <li class="movie-item">
+                <div>
+                    <div class="movie-title">Phim 2</div>
+                    <div class="movie-year">2067</div>
+                </div>
+                <a href="2.html"><button class="btn">Xem Chi Tiết</button></a>
+            </li>
+            <li class="movie-item">
+                <div>
+                    <div class="movie-title">Phim 3</div>
+                    <div class="movie-year">2036</div>
+                </div>
+                <a href="3.html"><button class="btn">Xem Chi Tiết</button></a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
